@@ -125,7 +125,6 @@ const Room = () => {
                   )}
 
                   <small className="message-timestamp">
-                    {" "}
                     {new Date(message.$createdAt).toLocaleString()}
                   </small>
                 </p>
