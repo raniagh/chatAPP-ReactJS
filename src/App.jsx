@@ -1,9 +1,10 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import Room from "./pages/Room";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import PrivateRoutes from "./utils/PrivateRoutes";
+import Room from "./pages/room";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
-import PrivateRoutes from "./components/PrivateRoutes";
 import { AuthProvider } from "./utils/AuthContext";
 
 function App() {
